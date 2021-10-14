@@ -1,0 +1,32 @@
+.App {
+  align-items: center;
+  max-width: 700px;
+  padding: 10px;
+}
+.textarea {
+  width: 384px;
+  padding: 10px;
+  border: 1px solid grey;
+  border-bottom: transparent;
+  resize: none;
+  display: inline-table;
+}
+.selectedGif {
+  padding: 0px 10px 10px 10px;
+  width: 384px;
+  border: 1px solid grey;
+  border-top: transparent;
+}
+.gif {
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #999;
+  border-radius: 10px;
+  width: 100px;
+}
+
+textarea:focus {
+  outline: none;
+}
